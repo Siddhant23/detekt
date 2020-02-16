@@ -354,6 +354,8 @@ naming:
     rootPackage: ''
   MatchingDeclarationName:
     active: true
+    mustBeFirst: true
+    ignoreDataClasses: true
   MemberNameEqualsClassName:
     active: true
     ignoreOverridden: true
